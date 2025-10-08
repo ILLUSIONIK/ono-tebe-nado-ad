@@ -97,17 +97,46 @@ display: grid;
 }
 
 .cover__description {
-
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  padding: 106px 50px 0;
 }
 
 .cover__description-subline {
-
+  justify-self: start;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+  word-spacing: 20px;
 }
 
-.cover__button {
+.bet-button {
+justify-self: end;
+  width: 256px;
+  height: 51px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 25.83px;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+  text-transform: uppercase;
+  background-color: transparent;
 
 }
-
+.bet-button:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  scale: 1.09;
+}
 /**********************************************************************************/
 
 .lots {

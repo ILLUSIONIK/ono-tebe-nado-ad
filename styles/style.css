@@ -4,6 +4,8 @@
   align-items: center;
   box-sizing: border-box;
   min-height: 293px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .header_menu ul {
@@ -16,7 +18,6 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
   list-style: circle;
-  padding-left: 50px;
 }
 
 .header__links-list-item_no-bullit {
@@ -37,7 +38,7 @@
 }
 
 .address {
-  width: 290px;
+  width: 240px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -250,7 +251,12 @@
   background-position: bottom;
 }
 
-
+.card_type_film,
+.card_type_book,
+.card_type_picture {
+  background-size: cover;
+  background-position: bottom;
+  }
 
 
 
@@ -295,12 +301,11 @@
   text-transform: uppercase;
 }
 
+
 .about_box {
-  justify-self: end;
-  width: 693px;
+  max-width: 100%;
   padding-top: 133px;
 }
-
 .about__text {
   margin-bottom: 24px;
   font-family: "Raleway", sans-serif;
@@ -334,6 +339,7 @@
   text-decoration-skip-ink: none;
   text-underline-position: from-font;
 }
+
 
 .footer__menu-list {
   text-align: center;
